@@ -1,0 +1,751 @@
+2020-05-09 21:53:34 [scrapy] INFO: Scrapy 1.8.0 started (bot: Tesco)
+2020-05-09 21:53:34 [scrapy] INFO: Versions: lxml 4.5.0.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 20.3.0, Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 22:45:29) [MSC v.1916 32 bit (Intel)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 2.9.2, Platform Windows-10-10.0.18362-SP0
+2020-05-09 21:53:34 [scrapy] INFO: Overridden settings: {'BOT_NAME': 'Tesco', 'LOG_FILE': 'logfile.log', 'LOG_LEVEL': 'INFO', 'LOG_SHORT_NAMES': True, 'NEWSPIDER_MODULE': 'Tesco.spiders', 'SPIDER_MODULES': ['Tesco.spiders']}
+2020-05-09 21:53:34 [scrapy] INFO: Telnet Password: 60626afe444447ea
+2020-05-09 21:53:34 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-05-09 21:53:34 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-05-09 21:53:35 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-05-09 21:53:35 [scrapy] INFO: Enabled item pipelines:
+['Tesco.pipelines.TescoPipeline']
+2020-05-09 21:53:35 [scrapy] INFO: Spider opened
+2020-05-09 21:53:35 [root] INFO: Spider 'ProductInfo' start
+2020-05-09 21:53:35 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-05-09 21:53:35 [scrapy] INFO: Telnet console listening on 127.0.0.1:6023
+2020-05-09 21:53:36 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all
+2020-05-09 21:53:37 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/household/kitchen-roll-and-tissues/all
+2020-05-09 21:53:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/260814123
+2020-05-09 21:53:37 [root] INFO: Product #260814123 successfully added to DB
+2020-05-09 21:53:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/262681114
+2020-05-09 21:53:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296889416
+2020-05-09 21:53:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/263361716
+2020-05-09 21:53:37 [root] INFO: Product #263361716 successfully added to DB
+2020-05-09 21:53:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/255534968
+2020-05-09 21:53:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291399318
+2020-05-09 21:53:37 [root] INFO: Product #291399318 successfully added to DB
+2020-05-09 21:53:38 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257450171
+2020-05-09 21:53:38 [root] INFO: Product #257450171 successfully added to DB
+2020-05-09 21:53:38 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/254523919
+2020-05-09 21:53:38 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/263361843
+2020-05-09 21:53:38 [root] INFO: Product #263361843 successfully added to DB
+2020-05-09 21:53:38 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/254960689
+2020-05-09 21:53:38 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/284776355
+2020-05-09 21:53:38 [root] INFO: Product #254960689 successfully added to DB
+2020-05-09 21:53:38 [root] INFO: Product #284776355 successfully added to DB
+2020-05-09 21:53:38 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/278501961
+2020-05-09 21:53:38 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/252867475
+2020-05-09 21:53:39 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/272389941
+2020-05-09 21:53:39 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286747442
+2020-05-09 21:53:39 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=2
+2020-05-09 21:53:39 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/household/kitchen-roll-and-tissues/all?page=2
+2020-05-09 21:53:39 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/284044093
+2020-05-09 21:53:39 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296653200
+2020-05-09 21:53:39 [root] INFO: Product #296653200 successfully added to DB
+2020-05-09 21:53:40 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302664282
+2020-05-09 21:53:40 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305945193
+2020-05-09 21:53:40 [root] INFO: Product #305945193 successfully added to DB
+2020-05-09 21:53:40 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296653102
+2020-05-09 21:53:40 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/294958661
+2020-05-09 21:53:40 [root] INFO: Product #294958661 successfully added to DB
+2020-05-09 21:53:40 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302442815
+2020-05-09 21:53:40 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/272022914
+2020-05-09 21:53:41 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/253114403
+2020-05-09 21:53:41 [root] INFO: Product #253114403 successfully added to DB
+2020-05-09 21:53:41 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/294268262
+2020-05-09 21:53:41 [root] INFO: Product #294268262 successfully added to DB
+2020-05-09 21:53:41 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=3
+2020-05-09 21:53:41 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/276787475
+2020-05-09 21:53:41 [root] INFO: Product #276787475 successfully added to DB
+2020-05-09 21:53:41 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/294958649
+2020-05-09 21:53:41 [root] INFO: Product #294958649 successfully added to DB
+2020-05-09 21:53:42 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/252686844
+2020-05-09 21:53:42 [root] INFO: Product #252686844 successfully added to DB
+2020-05-09 21:53:42 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302348714
+2020-05-09 21:53:42 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/285811261
+2020-05-09 21:53:42 [root] INFO: Product #285811261 successfully added to DB
+2020-05-09 21:53:43 [root] INFO: Product #272022914 successfully added to DB
+2020-05-09 21:53:43 [root] INFO: Product #252867475 successfully added to DB
+2020-05-09 21:53:43 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302554527
+2020-05-09 21:53:43 [root] INFO: Product #302554527 successfully added to DB
+2020-05-09 21:53:43 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=4
+2020-05-09 21:53:43 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293638834
+2020-05-09 21:53:43 [root] INFO: Product #293638834 successfully added to DB
+2020-05-09 21:53:43 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257579595
+2020-05-09 21:53:43 [root] INFO: Product #257579595 successfully added to DB
+2020-05-09 21:53:44 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/256082665
+2020-05-09 21:53:44 [root] INFO: Product #256082665 successfully added to DB
+2020-05-09 21:53:44 [root] INFO: Product #302348714 successfully added to DB
+2020-05-09 21:53:44 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/284044006
+2020-05-09 21:53:45 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/262261957
+2020-05-09 21:53:45 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302872444
+2020-05-09 21:53:45 [root] INFO: Product #262261957 successfully added to DB
+2020-05-09 21:53:45 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296889451
+2020-05-09 21:53:45 [root] INFO: Product #302872444 successfully added to DB
+2020-05-09 21:53:45 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=5
+2020-05-09 21:53:46 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286767461
+2020-05-09 21:53:46 [root] INFO: Product #286767461 successfully added to DB
+2020-05-09 21:53:46 [root] INFO: Product #278501961 successfully added to DB
+2020-05-09 21:53:46 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286767222
+2020-05-09 21:53:46 [root] INFO: Product #286767222 successfully added to DB
+2020-05-09 21:53:46 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286765209
+2020-05-09 21:53:46 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286765025
+2020-05-09 21:53:46 [root] INFO: Product #286765209 successfully added to DB
+2020-05-09 21:53:46 [root] INFO: Product #286765025 successfully added to DB
+2020-05-09 21:53:47 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286750215
+2020-05-09 21:53:47 [root] INFO: Product #286750215 successfully added to DB
+2020-05-09 21:53:47 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291683990
+2020-05-09 21:53:47 [root] INFO: Product #302664282 successfully added to DB
+2020-05-09 21:53:47 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286783297
+2020-05-09 21:53:48 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/304671926
+2020-05-09 21:53:48 [root] INFO: Product #286783297 successfully added to DB
+2020-05-09 21:53:48 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274372675
+2020-05-09 21:53:48 [root] INFO: Product #304671926 successfully added to DB
+2020-05-09 21:53:48 [root] INFO: Product #274372675 successfully added to DB
+2020-05-09 21:53:48 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=6
+2020-05-09 21:53:48 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/304387848
+2020-05-09 21:53:48 [root] INFO: Product #304387848 successfully added to DB
+2020-05-09 21:53:48 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/284756759
+2020-05-09 21:53:48 [root] INFO: Product #284756759 successfully added to DB
+2020-05-09 21:53:48 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302554343
+2020-05-09 21:53:49 [root] INFO: Product #302554343 successfully added to DB
+2020-05-09 21:53:49 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/284799748
+2020-05-09 21:53:49 [root] INFO: Product #284799748 successfully added to DB
+2020-05-09 21:53:49 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/284799852
+2020-05-09 21:53:49 [root] INFO: Product #284799852 successfully added to DB
+2020-05-09 21:53:49 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/284044041
+2020-05-09 21:53:50 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257504431
+2020-05-09 21:53:50 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298437217
+2020-05-09 21:53:50 [root] INFO: Product #257504431 successfully added to DB
+2020-05-09 21:53:50 [root] INFO: Product #298437217 successfully added to DB
+2020-05-09 21:53:50 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/276798410
+2020-05-09 21:53:50 [root] INFO: Product #276798410 successfully added to DB
+2020-05-09 21:53:50 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257973082
+2020-05-09 21:53:50 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=7
+2020-05-09 21:53:50 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286764922
+2020-05-09 21:53:50 [root] INFO: Product #286764922 successfully added to DB
+2020-05-09 21:53:50 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286767651
+2020-05-09 21:53:51 [root] INFO: Product #286767651 successfully added to DB
+2020-05-09 21:53:51 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/256902520
+2020-05-09 21:53:51 [root] INFO: Product #256902520 successfully added to DB
+2020-05-09 21:53:51 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/255709708
+2020-05-09 21:53:51 [root] INFO: Product #255709708 successfully added to DB
+2020-05-09 21:53:51 [root] INFO: Product #296889416 successfully added to DB
+2020-05-09 21:53:52 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/259503567
+2020-05-09 21:53:52 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274746988
+2020-05-09 21:53:52 [root] INFO: Product #274746988 successfully added to DB
+2020-05-09 21:53:52 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298436938
+2020-05-09 21:53:52 [root] INFO: Product #298436938 successfully added to DB
+2020-05-09 21:53:52 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/265372239
+2020-05-09 21:53:52 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=8
+2020-05-09 21:53:53 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257267209
+2020-05-09 21:53:53 [root] INFO: Product #257267209 successfully added to DB
+2020-05-09 21:53:53 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302554308
+2020-05-09 21:53:53 [root] INFO: Product #302554308 successfully added to DB
+2020-05-09 21:53:53 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302544931
+2020-05-09 21:53:53 [root] INFO: Product #302544931 successfully added to DB
+2020-05-09 21:53:54 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/256082498
+2020-05-09 21:53:54 [root] INFO: Product #256082498 successfully added to DB
+2020-05-09 21:53:54 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/289131650
+2020-05-09 21:53:54 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/264234394
+2020-05-09 21:53:54 [root] INFO: Product #289131650 successfully added to DB
+2020-05-09 21:53:54 [root] INFO: Product #264234394 successfully added to DB
+2020-05-09 21:53:54 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/255757946
+2020-05-09 21:53:54 [root] INFO: Product #284044041 successfully added to DB
+2020-05-09 21:53:54 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=9
+2020-05-09 21:53:55 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/304671955
+2020-05-09 21:53:55 [root] INFO: Product #304671955 successfully added to DB
+2020-05-09 21:53:55 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301743530
+2020-05-09 21:53:55 [root] INFO: Product #301743530 successfully added to DB
+2020-05-09 21:53:55 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257974173
+2020-05-09 21:53:55 [root] INFO: Product #284044093 successfully added to DB
+2020-05-09 21:53:55 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/267084617
+2020-05-09 21:53:56 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/255740073
+2020-05-09 21:53:56 [root] INFO: Product #267084617 successfully added to DB
+2020-05-09 21:53:56 [root] INFO: Product #255740073 successfully added to DB
+2020-05-09 21:53:56 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/268175556
+2020-05-09 21:53:56 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/272384261
+2020-05-09 21:53:56 [root] INFO: Product #272384261 successfully added to DB
+2020-05-09 21:53:56 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=10
+2020-05-09 21:53:56 [root] INFO: Product #265372239 successfully added to DB
+2020-05-09 21:53:57 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302309531
+2020-05-09 21:53:57 [root] INFO: Product #302309531 successfully added to DB
+2020-05-09 21:53:57 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301743553
+2020-05-09 21:53:57 [root] INFO: Product #301743553 successfully added to DB
+2020-05-09 21:53:58 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301744552
+2020-05-09 21:53:58 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305743691
+2020-05-09 21:53:58 [root] INFO: Product #301744552 successfully added to DB
+2020-05-09 21:53:58 [root] INFO: Product #305743691 successfully added to DB
+2020-05-09 21:53:58 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305743799
+2020-05-09 21:53:58 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302277400
+2020-05-09 21:53:58 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302286470
+2020-05-09 21:53:58 [root] INFO: Product #305743799 successfully added to DB
+2020-05-09 21:53:58 [root] INFO: Product #302277400 successfully added to DB
+2020-05-09 21:53:58 [root] INFO: Product #302286470 successfully added to DB
+2020-05-09 21:53:58 [root] INFO: Product #291683990 successfully added to DB
+2020-05-09 21:53:58 [root] INFO: Product #259503567 successfully added to DB
+2020-05-09 21:53:59 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=11
+2020-05-09 21:53:59 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/264249296
+2020-05-09 21:53:59 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302675349
+2020-05-09 21:53:59 [root] INFO: Product #302675349 successfully added to DB
+2020-05-09 21:53:59 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291612401
+2020-05-09 21:54:00 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301767997
+2020-05-09 21:54:00 [root] INFO: Product #255534968 successfully added to DB
+2020-05-09 21:54:00 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302298899
+2020-05-09 21:54:00 [root] INFO: Product #302298899 successfully added to DB
+2020-05-09 21:54:00 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/255120899
+2020-05-09 21:54:00 [root] INFO: Product #255120899 successfully added to DB
+2020-05-09 21:54:00 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/255120876
+2020-05-09 21:54:00 [root] INFO: Product #255120876 successfully added to DB
+2020-05-09 21:54:00 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=12
+2020-05-09 21:54:00 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301767951
+2020-05-09 21:54:01 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/268368534
+2020-05-09 21:54:01 [root] INFO: Product #268368534 successfully added to DB
+2020-05-09 21:54:01 [root] INFO: Product #264249296 successfully added to DB
+2020-05-09 21:54:01 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302311090
+2020-05-09 21:54:01 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302290019
+2020-05-09 21:54:01 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302299512
+2020-05-09 21:54:01 [root] INFO: Product #302311090 successfully added to DB
+2020-05-09 21:54:01 [root] INFO: Product #302290019 successfully added to DB
+2020-05-09 21:54:01 [root] INFO: Product #302299512 successfully added to DB
+2020-05-09 21:54:02 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305743541
+2020-05-09 21:54:02 [root] INFO: Product #305743541 successfully added to DB
+2020-05-09 21:54:02 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295195668
+2020-05-09 21:54:02 [root] INFO: Product #295195668 successfully added to DB
+2020-05-09 21:54:03 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305744619
+2020-05-09 21:54:03 [root] INFO: Product #305744619 successfully added to DB
+2020-05-09 21:54:03 [customizedlogger] INFO: Start parse page https://www.tesco.com/groceries/en-GB/shop/pets/cat-food-and-accessories/all?page=13
+2020-05-09 21:54:03 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302295349
+2020-05-09 21:54:03 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/299225410
+2020-05-09 21:54:03 [root] INFO: Product #302295349 successfully added to DB
+2020-05-09 21:54:03 [root] INFO: Product #299225410 successfully added to DB
+2020-05-09 21:54:03 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295268894
+2020-05-09 21:54:03 [root] INFO: Product #295268894 successfully added to DB
+2020-05-09 21:54:03 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/278465346
+2020-05-09 21:54:03 [root] INFO: Product #278465346 successfully added to DB
+2020-05-09 21:54:03 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303205519
+2020-05-09 21:54:03 [root] INFO: Product #303205519 successfully added to DB
+2020-05-09 21:54:04 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286785151
+2020-05-09 21:54:04 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301743599
+2020-05-09 21:54:04 [root] INFO: Product #301743599 successfully added to DB
+2020-05-09 21:54:04 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/299640199
+2020-05-09 21:54:04 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301744517
+2020-05-09 21:54:04 [root] INFO: Product #301744517 successfully added to DB
+2020-05-09 21:54:05 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305972252
+2020-05-09 21:54:05 [root] INFO: Product #305972252 successfully added to DB
+2020-05-09 21:54:05 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305519116
+2020-05-09 21:54:05 [root] INFO: Product #305519116 successfully added to DB
+2020-05-09 21:54:05 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/292632859
+2020-05-09 21:54:05 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/271371986
+2020-05-09 21:54:05 [root] INFO: Product #271371986 successfully added to DB
+2020-05-09 21:54:06 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295268934
+2020-05-09 21:54:06 [root] INFO: Product #295268934 successfully added to DB
+2020-05-09 21:54:06 [root] INFO: Product #255757946 successfully added to DB
+2020-05-09 21:54:06 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295268836
+2020-05-09 21:54:06 [root] INFO: Product #295268836 successfully added to DB
+2020-05-09 21:54:06 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291051275
+2020-05-09 21:54:06 [root] INFO: Product #291051275 successfully added to DB
+2020-05-09 21:54:06 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/304793684
+2020-05-09 21:54:06 [root] INFO: Product #304793684 successfully added to DB
+2020-05-09 21:54:06 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295268992
+2020-05-09 21:54:06 [root] INFO: Product #295268992 successfully added to DB
+2020-05-09 21:54:07 [root] INFO: Product #268175556 successfully added to DB
+2020-05-09 21:54:07 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/304395699
+2020-05-09 21:54:07 [root] INFO: Product #304395699 successfully added to DB
+2020-05-09 21:54:07 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/250272628
+2020-05-09 21:54:07 [root] INFO: Product #250272628 successfully added to DB
+2020-05-09 21:54:07 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295268859
+2020-05-09 21:54:07 [root] INFO: Product #295268859 successfully added to DB
+2020-05-09 21:54:07 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301184396
+2020-05-09 21:54:08 [root] INFO: Product #301184396 successfully added to DB
+2020-05-09 21:54:08 [root] INFO: Product #292632859 successfully added to DB
+2020-05-09 21:54:08 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295210997
+2020-05-09 21:54:08 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301184373
+2020-05-09 21:54:08 [root] INFO: Product #295210997 successfully added to DB
+2020-05-09 21:54:08 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291900262
+2020-05-09 21:54:08 [root] INFO: Product #301184373 successfully added to DB
+2020-05-09 21:54:08 [root] INFO: Product #291900262 successfully added to DB
+2020-05-09 21:54:08 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301184350
+2020-05-09 21:54:08 [root] INFO: Product #301184350 successfully added to DB
+2020-05-09 21:54:08 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298437085
+2020-05-09 21:54:09 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302872605
+2020-05-09 21:54:09 [root] INFO: Product #302872605 successfully added to DB
+2020-05-09 21:54:09 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302183319
+2020-05-09 21:54:09 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302183332
+2020-05-09 21:54:09 [root] INFO: Product #302183319 successfully added to DB
+2020-05-09 21:54:10 [root] INFO: Product #302183332 successfully added to DB
+2020-05-09 21:54:10 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302183279
+2020-05-09 21:54:10 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302554320
+2020-05-09 21:54:10 [root] INFO: Product #302554320 successfully added to DB
+2020-05-09 21:54:10 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/271331844
+2020-05-09 21:54:10 [root] INFO: Product #271331844 successfully added to DB
+2020-05-09 21:54:10 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295268813
+2020-05-09 21:54:10 [root] INFO: Product #295268813 successfully added to DB
+2020-05-09 21:54:10 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/304384886
+2020-05-09 21:54:10 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302554366
+2020-05-09 21:54:10 [root] INFO: Product #304384886 successfully added to DB
+2020-05-09 21:54:10 [root] INFO: Product #302554366 successfully added to DB
+2020-05-09 21:54:11 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302304346
+2020-05-09 21:54:11 [root] INFO: Product #302304346 successfully added to DB
+2020-05-09 21:54:11 [root] INFO: Product #284044006 successfully added to DB
+2020-05-09 21:54:12 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302276856
+2020-05-09 21:54:12 [root] INFO: Product #302276856 successfully added to DB
+2020-05-09 21:54:12 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302297629
+2020-05-09 21:54:12 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291124783
+2020-05-09 21:54:12 [root] INFO: Product #302297629 successfully added to DB
+2020-05-09 21:54:12 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291124725
+2020-05-09 21:54:12 [root] INFO: Product #291124783 successfully added to DB
+2020-05-09 21:54:12 [root] INFO: Product #291124725 successfully added to DB
+2020-05-09 21:54:12 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286747531
+2020-05-09 21:54:12 [root] INFO: Product #286747531 successfully added to DB
+2020-05-09 21:54:12 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302288404
+2020-05-09 21:54:12 [root] INFO: Product #302288404 successfully added to DB
+2020-05-09 21:54:13 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305043471
+2020-05-09 21:54:13 [root] INFO: Product #305043471 successfully added to DB
+2020-05-09 21:54:13 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/304788253
+2020-05-09 21:54:13 [root] INFO: Product #304788253 successfully added to DB
+2020-05-09 21:54:13 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295195680
+2020-05-09 21:54:13 [root] INFO: Product #295195680 successfully added to DB
+2020-05-09 21:54:14 [root] INFO: Product #262681114 successfully added to DB
+2020-05-09 21:54:14 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305744730
+2020-05-09 21:54:14 [root] INFO: Product #305744730 successfully added to DB
+2020-05-09 21:54:14 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305745412
+2020-05-09 21:54:14 [root] INFO: Product #305745412 successfully added to DB
+2020-05-09 21:54:14 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295195708
+2020-05-09 21:54:14 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305521625
+2020-05-09 21:54:14 [root] INFO: Product #295195708 successfully added to DB
+2020-05-09 21:54:14 [root] INFO: Product #305521625 successfully added to DB
+2020-05-09 21:54:15 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/282154182
+2020-05-09 21:54:15 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298345101
+2020-05-09 21:54:15 [root] INFO: Product #298345101 successfully added to DB
+2020-05-09 21:54:15 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/282171198
+2020-05-09 21:54:15 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303227142
+2020-05-09 21:54:15 [root] INFO: Product #303227142 successfully added to DB
+2020-05-09 21:54:16 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257938729
+2020-05-09 21:54:16 [root] INFO: Product #257938729 successfully added to DB
+2020-05-09 21:54:16 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298345026
+2020-05-09 21:54:16 [root] INFO: Product #298345026 successfully added to DB
+2020-05-09 21:54:16 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/266166046
+2020-05-09 21:54:16 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303181465
+2020-05-09 21:54:16 [root] INFO: Product #303181465 successfully added to DB
+2020-05-09 21:54:16 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302290838
+2020-05-09 21:54:16 [root] INFO: Product #302290838 successfully added to DB
+2020-05-09 21:54:17 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295647267
+2020-05-09 21:54:17 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298345061
+2020-05-09 21:54:17 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302308440
+2020-05-09 21:54:17 [root] INFO: Product #295647267 successfully added to DB
+2020-05-09 21:54:17 [root] INFO: Product #298345061 successfully added to DB
+2020-05-09 21:54:17 [root] INFO: Product #302308440 successfully added to DB
+2020-05-09 21:54:17 [root] INFO: Product #299640199 successfully added to DB
+2020-05-09 21:54:18 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274738330
+2020-05-09 21:54:18 [root] INFO: Product #274738330 successfully added to DB
+2020-05-09 21:54:18 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/252730723
+2020-05-09 21:54:18 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291051950
+2020-05-09 21:54:18 [root] INFO: Product #291051950 successfully added to DB
+2020-05-09 21:54:18 [root] INFO: Product #254523919 successfully added to DB
+2020-05-09 21:54:19 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274371618
+2020-05-09 21:54:19 [root] INFO: Product #274371618 successfully added to DB
+2020-05-09 21:54:19 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274815204
+2020-05-09 21:54:19 [root] INFO: Product #274815204 successfully added to DB
+2020-05-09 21:54:19 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274815348
+2020-05-09 21:54:19 [root] INFO: Product #274815348 successfully added to DB
+2020-05-09 21:54:19 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/284800229
+2020-05-09 21:54:19 [root] INFO: Product #284800229 successfully added to DB
+2020-05-09 21:54:20 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/250775581
+2020-05-09 21:54:20 [root] INFO: Product #250775581 successfully added to DB
+2020-05-09 21:54:20 [root] INFO: Product #302183279 successfully added to DB
+2020-05-09 21:54:20 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/258404248
+2020-05-09 21:54:20 [root] INFO: Product #258404248 successfully added to DB
+2020-05-09 21:54:20 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274747359
+2020-05-09 21:54:20 [root] INFO: Product #274747359 successfully added to DB
+2020-05-09 21:54:21 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303205617
+2020-05-09 21:54:21 [root] INFO: Product #286785151 successfully added to DB
+2020-05-09 21:54:21 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/268347058
+2020-05-09 21:54:21 [root] INFO: Product #268347058 successfully added to DB
+2020-05-09 21:54:21 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302298559
+2020-05-09 21:54:21 [root] INFO: Product #302298559 successfully added to DB
+2020-05-09 21:54:21 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/288090094
+2020-05-09 21:54:22 [root] INFO: Product #288090094 successfully added to DB
+2020-05-09 21:54:22 [root] INFO: Product #298437085 successfully added to DB
+2020-05-09 21:54:22 [root] INFO: Product #252730723 successfully added to DB
+2020-05-09 21:54:22 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302283686
+2020-05-09 21:54:22 [root] INFO: Product #302283686 successfully added to DB
+2020-05-09 21:54:22 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293638978
+2020-05-09 21:54:22 [root] INFO: Product #293638978 successfully added to DB
+2020-05-09 21:54:23 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305042149
+2020-05-09 21:54:23 [root] INFO: Product #305042149 successfully added to DB
+2020-05-09 21:54:23 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/282171935
+2020-05-09 21:54:23 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295196327
+2020-05-09 21:54:23 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/300842506
+2020-05-09 21:54:23 [root] INFO: Product #300842506 successfully added to DB
+2020-05-09 21:54:24 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291051603
+2020-05-09 21:54:24 [root] INFO: Product #291051603 successfully added to DB
+2020-05-09 21:54:24 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295196402
+2020-05-09 21:54:24 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295446021
+2020-05-09 21:54:24 [root] INFO: Product #295446021 successfully added to DB
+2020-05-09 21:54:24 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/268368350
+2020-05-09 21:54:25 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296871137
+2020-05-09 21:54:25 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305855086
+2020-05-09 21:54:25 [root] INFO: Product #305855086 successfully added to DB
+2020-05-09 21:54:25 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/266352982
+2020-05-09 21:54:26 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/304789937
+2020-05-09 21:54:26 [root] INFO: Product #304789937 successfully added to DB
+2020-05-09 21:54:26 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/264375710
+2020-05-09 21:54:26 [root] INFO: Product #264375710 successfully added to DB
+2020-05-09 21:54:26 [root] INFO: Product #291612401 successfully added to DB
+2020-05-09 21:54:27 [root] INFO: Product #266166046 successfully added to DB
+2020-05-09 21:54:28 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298180116
+2020-05-09 21:54:28 [root] INFO: Product #298180116 successfully added to DB
+2020-05-09 21:54:28 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295647307
+2020-05-09 21:54:28 [root] INFO: Product #295647307 successfully added to DB
+2020-05-09 21:54:28 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/272385006
+2020-05-09 21:54:28 [root] INFO: Product #272385006 successfully added to DB
+2020-05-09 21:54:29 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/264386524
+2020-05-09 21:54:29 [root] INFO: Product #264386524 successfully added to DB
+2020-05-09 21:54:29 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/265953232
+2020-05-09 21:54:29 [root] INFO: Product #265953232 successfully added to DB
+2020-05-09 21:54:30 [root] INFO: Product #303205617 successfully added to DB
+2020-05-09 21:54:30 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303270819
+2020-05-09 21:54:30 [root] INFO: Product #303270819 successfully added to DB
+2020-05-09 21:54:30 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/258307732
+2020-05-09 21:54:30 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303205698
+2020-05-09 21:54:31 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303205675
+2020-05-09 21:54:31 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/276798208
+2020-05-09 21:54:31 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303205599
+2020-05-09 21:54:31 [root] INFO: Product #276798208 successfully added to DB
+2020-05-09 21:54:32 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/273824581
+2020-05-09 21:54:32 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/292632180
+2020-05-09 21:54:32 [root] INFO: Product #273824581 successfully added to DB
+2020-05-09 21:54:32 [root] INFO: Product #292632180 successfully added to DB
+2020-05-09 21:54:32 [root] INFO: Product #282171935 successfully added to DB
+2020-05-09 21:54:33 [root] INFO: Product #282154182 successfully added to DB
+2020-05-09 21:54:33 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293638811
+2020-05-09 21:54:33 [root] INFO: Product #293638811 successfully added to DB
+2020-05-09 21:54:33 [root] INFO: Product #268368350 successfully added to DB
+2020-05-09 21:54:34 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/284776142
+2020-05-09 21:54:34 [root] INFO: Product #284776142 successfully added to DB
+2020-05-09 21:54:34 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293773108
+2020-05-09 21:54:34 [root] INFO: Product #293773108 successfully added to DB
+2020-05-09 21:54:35 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/288075850
+2020-05-09 21:54:35 [root] INFO: Product #303205698 successfully added to DB
+2020-05-09 21:54:35 [root] INFO: Product #303205675 successfully added to DB
+2020-05-09 21:54:35 [scrapy] INFO: Crawled 482 pages (at 482 pages/min), scraped 192 items (at 192 items/min)
+2020-05-09 21:54:36 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/297646242
+2020-05-09 21:54:36 [root] INFO: Product #297646242 successfully added to DB
+2020-05-09 21:54:36 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305731313
+2020-05-09 21:54:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301767974
+2020-05-09 21:54:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302873466
+2020-05-09 21:54:37 [root] INFO: Product #302873466 successfully added to DB
+2020-05-09 21:54:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295647083
+2020-05-09 21:54:37 [root] INFO: Product #295647083 successfully added to DB
+2020-05-09 21:54:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/260569574
+2020-05-09 21:54:37 [root] INFO: Product #260569574 successfully added to DB
+2020-05-09 21:54:37 [root] INFO: Product #288075850 successfully added to DB
+2020-05-09 21:54:38 [root] INFO: Product #305731313 successfully added to DB
+2020-05-09 21:54:38 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305745359
+2020-05-09 21:54:38 [root] INFO: Product #305745359 successfully added to DB
+2020-05-09 21:54:39 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293812956
+2020-05-09 21:54:39 [root] INFO: Product #293812956 successfully added to DB
+2020-05-09 21:54:39 [root] INFO: Product #258307732 successfully added to DB
+2020-05-09 21:54:39 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293638955
+2020-05-09 21:54:40 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303227205
+2020-05-09 21:54:40 [root] INFO: Product #293638955 successfully added to DB
+2020-05-09 21:54:40 [root] INFO: Product #303227205 successfully added to DB
+2020-05-09 21:54:40 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303227165
+2020-05-09 21:54:40 [root] INFO: Product #303227165 successfully added to DB
+2020-05-09 21:54:40 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/262976935
+2020-05-09 21:54:40 [root] INFO: Product #262976935 successfully added to DB
+2020-05-09 21:54:41 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/268368511
+2020-05-09 21:54:41 [root] INFO: Product #266352982 successfully added to DB
+2020-05-09 21:54:41 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257972699
+2020-05-09 21:54:41 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/271668745
+2020-05-09 21:54:42 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/265235247
+2020-05-09 21:54:42 [root] INFO: Product #282171198 successfully added to DB
+2020-05-09 21:54:42 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/264379429
+2020-05-09 21:54:42 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/297646858
+2020-05-09 21:54:42 [root] INFO: Product #297646858 successfully added to DB
+2020-05-09 21:54:43 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274746654
+2020-05-09 21:54:43 [root] INFO: Product #274746654 successfully added to DB
+2020-05-09 21:54:44 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/276787354
+2020-05-09 21:54:44 [root] INFO: Product #276787354 successfully added to DB
+2020-05-09 21:54:44 [root] INFO: Product #264379429 successfully added to DB
+2020-05-09 21:54:44 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/272384710
+2020-05-09 21:54:44 [root] INFO: Product #272384710 successfully added to DB
+2020-05-09 21:54:45 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303270832
+2020-05-09 21:54:45 [root] INFO: Product #303270832 successfully added to DB
+2020-05-09 21:54:45 [root] INFO: Product #303205599 successfully added to DB
+2020-05-09 21:54:45 [root] INFO: Product #295196402 successfully added to DB
+2020-05-09 21:54:46 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274815538
+2020-05-09 21:54:46 [root] INFO: Product #274815538 successfully added to DB
+2020-05-09 21:54:46 [root] INFO: Product #257974173 successfully added to DB
+2020-05-09 21:54:46 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/255893908
+2020-05-09 21:54:46 [root] INFO: Product #255893908 successfully added to DB
+2020-05-09 21:54:47 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/250962098
+2020-05-09 21:54:47 [root] INFO: Product #250962098 successfully added to DB
+2020-05-09 21:54:47 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257966119
+2020-05-09 21:54:47 [root] INFO: Product #257966119 successfully added to DB
+2020-05-09 21:54:47 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/272941230
+2020-05-09 21:54:47 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291170623
+2020-05-09 21:54:48 [root] INFO: Product #291170623 successfully added to DB
+2020-05-09 21:54:48 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/289661682
+2020-05-09 21:54:48 [root] INFO: Product #289661682 successfully added to DB
+2020-05-09 21:54:48 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/272980724
+2020-05-09 21:54:48 [root] INFO: Product #272980724 successfully added to DB
+2020-05-09 21:54:48 [root] INFO: Product #265235247 successfully added to DB
+2020-05-09 21:54:49 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/278501990
+2020-05-09 21:54:49 [root] INFO: Product #278501990 successfully added to DB
+2020-05-09 21:54:49 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305049205
+2020-05-09 21:54:49 [root] INFO: Product #305049205 successfully added to DB
+2020-05-09 21:54:49 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293773080
+2020-05-09 21:54:49 [root] INFO: Product #293773080 successfully added to DB
+2020-05-09 21:54:50 [root] INFO: Product #272941230 successfully added to DB
+2020-05-09 21:54:50 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293638771
+2020-05-09 21:54:50 [root] INFO: Product #293638771 successfully added to DB
+2020-05-09 21:54:50 [root] INFO: Product #296889451 successfully added to DB
+2020-05-09 21:54:51 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298436817
+2020-05-09 21:54:51 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/289131552
+2020-05-09 21:54:51 [root] INFO: Product #298436817 successfully added to DB
+2020-05-09 21:54:51 [root] INFO: Product #289131552 successfully added to DB
+2020-05-09 21:54:51 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301743490
+2020-05-09 21:54:51 [root] INFO: Product #301743490 successfully added to DB
+2020-05-09 21:54:51 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301767939
+2020-05-09 21:54:51 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295446009
+2020-05-09 21:54:52 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293773120
+2020-05-09 21:54:52 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/255686085
+2020-05-09 21:54:52 [root] INFO: Product #293773120 successfully added to DB
+2020-05-09 21:54:52 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305745308
+2020-05-09 21:54:52 [root] INFO: Product #305745308 successfully added to DB
+2020-05-09 21:54:53 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291398982
+2020-05-09 21:54:53 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/258306606
+2020-05-09 21:54:53 [root] INFO: Product #295446009 successfully added to DB
+2020-05-09 21:54:53 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257971700
+2020-05-09 21:54:54 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296143752
+2020-05-09 21:54:54 [root] INFO: Product #255686085 successfully added to DB
+2020-05-09 21:54:54 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/264375036
+2020-05-09 21:54:56 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298437230
+2020-05-09 21:54:57 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291683857
+2020-05-09 21:54:58 [root] INFO: Product #298437230 successfully added to DB
+2020-05-09 21:54:58 [root] INFO: Product #291398982 successfully added to DB
+2020-05-09 21:54:58 [root] INFO: Product #296143752 successfully added to DB
+2020-05-09 21:54:59 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/276787291
+2020-05-09 21:54:59 [root] INFO: Product #276787291 successfully added to DB
+2020-05-09 21:54:59 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/255709668
+2020-05-09 21:54:59 [root] INFO: Product #255709668 successfully added to DB
+2020-05-09 21:55:01 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/284777613
+2020-05-09 21:55:01 [root] INFO: Product #284777613 successfully added to DB
+2020-05-09 21:55:02 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/264388113
+2020-05-09 21:55:02 [root] INFO: Product #264388113 successfully added to DB
+2020-05-09 21:55:02 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/263822431
+2020-05-09 21:55:02 [root] INFO: Product #263822431 successfully added to DB
+2020-05-09 21:55:03 [root] INFO: Product #264375036 successfully added to DB
+2020-05-09 21:55:03 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291117642
+2020-05-09 21:55:03 [root] INFO: Product #291117642 successfully added to DB
+2020-05-09 21:55:04 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/272980753
+2020-05-09 21:55:05 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/278502073
+2020-05-09 21:55:05 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293638794
+2020-05-09 21:55:05 [root] INFO: Product #293638794 successfully added to DB
+2020-05-09 21:55:05 [root] INFO: Product #291683857 successfully added to DB
+2020-05-09 21:55:06 [root] INFO: Product #258306606 successfully added to DB
+2020-05-09 21:55:06 [root] INFO: Product #272980753 successfully added to DB
+2020-05-09 21:55:06 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303205554
+2020-05-09 21:55:07 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/278433044
+2020-05-09 21:55:07 [root] INFO: Product #295196327 successfully added to DB
+2020-05-09 21:55:07 [root] INFO: Product #278502073 successfully added to DB
+2020-05-09 21:55:08 [root] INFO: Product #302442815 successfully added to DB
+2020-05-09 21:55:08 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/303205577
+2020-05-09 21:55:08 [root] INFO: Product #296871137 successfully added to DB
+2020-05-09 21:55:08 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/250610878
+2020-05-09 21:55:08 [root] INFO: Product #250610878 successfully added to DB
+2020-05-09 21:55:09 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/276798796
+2020-05-09 21:55:09 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/276787567
+2020-05-09 21:55:09 [root] INFO: Product #276787567 successfully added to DB
+2020-05-09 21:55:09 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293638857
+2020-05-09 21:55:09 [root] INFO: Product #293638857 successfully added to DB
+2020-05-09 21:55:09 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/263371474
+2020-05-09 21:55:09 [root] INFO: Product #263371474 successfully added to DB
+2020-05-09 21:55:09 [root] INFO: Product #257971700 successfully added to DB
+2020-05-09 21:55:10 [root] INFO: Product #278433044 successfully added to DB
+2020-05-09 21:55:11 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/280307722
+2020-05-09 21:55:11 [root] INFO: Product #280307722 successfully added to DB
+2020-05-09 21:55:11 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293638673
+2020-05-09 21:55:11 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291729380
+2020-05-09 21:55:11 [root] INFO: Product #293638673 successfully added to DB
+2020-05-09 21:55:11 [root] INFO: Product #291729380 successfully added to DB
+2020-05-09 21:55:11 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/284776286
+2020-05-09 21:55:11 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257459392
+2020-05-09 21:55:11 [root] INFO: Product #284776286 successfully added to DB
+2020-05-09 21:55:11 [root] INFO: Product #257459392 successfully added to DB
+2020-05-09 21:55:12 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257972929
+2020-05-09 21:55:12 [root] INFO: Product #271668745 successfully added to DB
+2020-05-09 21:55:12 [root] INFO: Product #303205554 successfully added to DB
+2020-05-09 21:55:13 [root] INFO: Product #303205577 successfully added to DB
+2020-05-09 21:55:13 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/257971591
+2020-05-09 21:55:13 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/282370832
+2020-05-09 21:55:13 [root] INFO: Product #268368511 successfully added to DB
+2020-05-09 21:55:13 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/260589803
+2020-05-09 21:55:14 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296143619
+2020-05-09 21:55:14 [root] INFO: Product #296143619 successfully added to DB
+2020-05-09 21:55:14 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/266411671
+2020-05-09 21:55:15 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296745132
+2020-05-09 21:55:15 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/293773022
+2020-05-09 21:55:15 [root] INFO: Product #293773022 successfully added to DB
+2020-05-09 21:55:15 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296889376
+2020-05-09 21:55:15 [root] INFO: Product #296889376 successfully added to DB
+2020-05-09 21:55:16 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/295496116
+2020-05-09 21:55:16 [root] INFO: Product #276798796 successfully added to DB
+2020-05-09 21:55:16 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/292631912
+2020-05-09 21:55:16 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/271374384
+2020-05-09 21:55:17 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/282061795
+2020-05-09 21:55:17 [root] INFO: Product #282061795 successfully added to DB
+2020-05-09 21:55:18 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291159269
+2020-05-09 21:55:18 [root] INFO: Product #291159269 successfully added to DB
+2020-05-09 21:55:18 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/255136472
+2020-05-09 21:55:19 [root] INFO: Product #271374384 successfully added to DB
+2020-05-09 21:55:19 [root] INFO: Product #292631912 successfully added to DB
+2020-05-09 21:55:20 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/264387379
+2020-05-09 21:55:20 [root] INFO: Product #264387379 successfully added to DB
+2020-05-09 21:55:20 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/264387039
+2020-05-09 21:55:21 [root] INFO: Product #264387039 successfully added to DB
+2020-05-09 21:55:21 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298063895
+2020-05-09 21:55:21 [root] INFO: Product #298063895 successfully added to DB
+2020-05-09 21:55:22 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298064312
+2020-05-09 21:55:22 [root] INFO: Product #298064312 successfully added to DB
+2020-05-09 21:55:22 [root] INFO: Product #282370832 successfully added to DB
+2020-05-09 21:55:22 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286544152
+2020-05-09 21:55:22 [root] INFO: Product #286544152 successfully added to DB
+2020-05-09 21:55:23 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/298063682
+2020-05-09 21:55:23 [root] INFO: Product #298063682 successfully added to DB
+2020-05-09 21:55:23 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286544270
+2020-05-09 21:55:23 [root] INFO: Product #286544270 successfully added to DB
+2020-05-09 21:55:24 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291170721
+2020-05-09 21:55:24 [root] INFO: Product #291170721 successfully added to DB
+2020-05-09 21:55:24 [root] INFO: Product #296745132 successfully added to DB
+2020-05-09 21:55:25 [root] INFO: Product #295496116 successfully added to DB
+2020-05-09 21:55:25 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/273969023
+2020-05-09 21:55:25 [root] INFO: Product #273969023 successfully added to DB
+2020-05-09 21:55:25 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/273968871
+2020-05-09 21:55:25 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/286543599
+2020-05-09 21:55:25 [root] INFO: Product #273968871 successfully added to DB
+2020-05-09 21:55:25 [root] INFO: Product #286543599 successfully added to DB
+2020-05-09 21:55:26 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274818535
+2020-05-09 21:55:26 [root] INFO: Product #274818535 successfully added to DB
+2020-05-09 21:55:26 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274764194
+2020-05-09 21:55:26 [root] INFO: Product #274764194 successfully added to DB
+2020-05-09 21:55:26 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274775567
+2020-05-09 21:55:26 [root] INFO: Product #274775567 successfully added to DB
+2020-05-09 21:55:26 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/291159154
+2020-05-09 21:55:27 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/272409775
+2020-05-09 21:55:27 [root] INFO: Product #272409775 successfully added to DB
+2020-05-09 21:55:27 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274371837
+2020-05-09 21:55:27 [root] INFO: Product #274371837 successfully added to DB
+2020-05-09 21:55:28 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/272409717
+2020-05-09 21:55:28 [root] INFO: Product #272409717 successfully added to DB
+2020-05-09 21:55:28 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/289661500
+2020-05-09 21:55:28 [root] INFO: Product #289661500 successfully added to DB
+2020-05-09 21:55:28 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/292632698
+2020-05-09 21:55:29 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302293639
+2020-05-09 21:55:29 [root] INFO: Product #302293639 successfully added to DB
+2020-05-09 21:55:29 [root] INFO: Product #291159154 successfully added to DB
+2020-05-09 21:55:29 [root] INFO: Product #301767997 successfully added to DB
+2020-05-09 21:55:30 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/276287974
+2020-05-09 21:55:30 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296482321
+2020-05-09 21:55:30 [root] INFO: Product #296482321 successfully added to DB
+2020-05-09 21:55:31 [root] INFO: Product #266411671 successfully added to DB
+2020-05-09 21:55:31 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302664269
+2020-05-09 21:55:31 [root] INFO: Product #292632698 successfully added to DB
+2020-05-09 21:55:31 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/285767284
+2020-05-09 21:55:32 [root] INFO: Product #285767284 successfully added to DB
+2020-05-09 21:55:32 [root] INFO: Product #276287974 successfully added to DB
+2020-05-09 21:55:33 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296482344
+2020-05-09 21:55:33 [root] INFO: Product #296482344 successfully added to DB
+2020-05-09 21:55:33 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305970254
+2020-05-09 21:55:33 [root] INFO: Product #305970254 successfully added to DB
+2020-05-09 21:55:33 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305942432
+2020-05-09 21:55:33 [root] INFO: Product #305942432 successfully added to DB
+2020-05-09 21:55:33 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302554487
+2020-05-09 21:55:33 [root] INFO: Product #302554487 successfully added to DB
+2020-05-09 21:55:34 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302554504
+2020-05-09 21:55:34 [root] INFO: Product #302554504 successfully added to DB
+2020-05-09 21:55:35 [root] INFO: Product #286747442 successfully added to DB
+2020-05-09 21:55:35 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/264038125
+2020-05-09 21:55:35 [scrapy] INFO: Crawled 956 pages (at 474 pages/min), scraped 313 items (at 121 items/min)
+2020-05-09 21:55:35 [root] INFO: Product #264038125 successfully added to DB
+2020-05-09 21:55:36 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/262374000
+2020-05-09 21:55:36 [root] INFO: Product #262374000 successfully added to DB
+2020-05-09 21:55:36 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/256116258
+2020-05-09 21:55:36 [root] INFO: Product #256116258 successfully added to DB
+2020-05-09 21:55:36 [root] INFO: Product #257973082 successfully added to DB
+2020-05-09 21:55:37 [root] INFO: Product #302664269 successfully added to DB
+2020-05-09 21:55:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/305045152
+2020-05-09 21:55:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/301979395
+2020-05-09 21:55:37 [root] INFO: Product #301979395 successfully added to DB
+2020-05-09 21:55:37 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296653125
+2020-05-09 21:55:38 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/274775671
+2020-05-09 21:55:38 [root] INFO: Product #274775671 successfully added to DB
+2020-05-09 21:55:38 [root] INFO: Product #272389941 successfully added to DB
+2020-05-09 21:55:38 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302872409
+2020-05-09 21:55:38 [root] INFO: Product #302872409 successfully added to DB
+2020-05-09 21:55:38 [root] INFO: Product #257972699 successfully added to DB
+2020-05-09 21:55:38 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/263383477
+2020-05-09 21:55:38 [root] INFO: Product #263383477 successfully added to DB
+2020-05-09 21:55:39 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/272364671
+2020-05-09 21:55:39 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/302872421
+2020-05-09 21:55:39 [root] INFO: Product #302872421 successfully added to DB
+2020-05-09 21:55:39 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/258306762
+2020-05-09 21:55:39 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/251628864
+2020-05-09 21:55:39 [root] INFO: Product #251628864 successfully added to DB
+2020-05-09 21:55:39 [root] INFO: Product #257971591 successfully added to DB
+2020-05-09 21:55:40 [root] INFO: Product #255136472 successfully added to DB
+2020-05-09 21:55:40 [customizedlogger] INFO: Parse product https://www.tesco.com/groceries/en-GB/products/296143533
+2020-05-09 21:55:40 [root] INFO: Product #260589803 successfully added to DB
+2020-05-09 21:55:42 [root] INFO: Product #272364671 successfully added to DB
+2020-05-09 21:55:43 [root] INFO: Product #296143533 successfully added to DB
+2020-05-09 21:55:48 [root] INFO: Product #258306762 successfully added to DB
+2020-05-09 21:55:49 [root] INFO: Product #296653102 successfully added to DB
+2020-05-09 21:55:58 [root] INFO: Product #301767974 successfully added to DB
+2020-05-09 21:56:09 [root] INFO: Product #257972929 successfully added to DB
+2020-05-09 21:56:23 [root] INFO: Product #301767951 successfully added to DB
+2020-05-09 21:56:35 [root] INFO: Product #305045152 successfully added to DB
+2020-05-09 21:56:35 [scrapy] INFO: Crawled 1229 pages (at 273 pages/min), scraped 337 items (at 24 items/min)
+2020-05-09 21:56:35 [root] INFO: Product #296653125 successfully added to DB
+2020-05-09 21:56:47 [root] INFO: Product #301767939 successfully added to DB
+2020-05-09 21:56:47 [scrapy] INFO: Closing spider (finished)
+2020-05-09 21:56:47 [root] INFO: Spider 'ProductInfo'  end
+2020-05-09 21:56:47 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1872516,
+ 'downloader/request_count': 1241,
+ 'downloader/request_method_count/GET': 1241,
+ 'downloader/response_bytes': 123662210,
+ 'downloader/response_count': 1241,
+ 'downloader/response_status_count/200': 1241,
+ 'dupefilter/filtered': 1,
+ 'elapsed_time_seconds': 191.577015,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 5, 9, 18, 56, 47, 192193),
+ 'item_scraped_count': 339,
+ 'log_count/INFO': 708,
+ 'request_depth_max': 87,
+ 'response_received_count': 1241,
+ 'scheduler/dequeued': 1241,
+ 'scheduler/dequeued/memory': 1241,
+ 'scheduler/enqueued': 1241,
+ 'scheduler/enqueued/memory': 1241,
+ 'start_time': datetime.datetime(2020, 5, 9, 18, 53, 35, 615178)}
+2020-05-09 21:56:47 [scrapy] INFO: Spider closed (finished)

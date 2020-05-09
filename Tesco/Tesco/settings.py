@@ -13,7 +13,10 @@ BOT_NAME = 'Tesco'
 
 SPIDER_MODULES = ['Tesco.spiders']
 NEWSPIDER_MODULE = 'Tesco.spiders'
-LOG_ENABLED = False
+# LOG_ENABLED = False
+LOG_FILE='logfile.log'
+LOG_LEVEL='INFO'
+LOG_SHORT_NAMES=True
 CONNECTION_STRING = 'mysql+pymysql://root:56457@localhost/test'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'Tesco (+http://www.yourdomain.com)'
@@ -64,9 +67,9 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'Tesco.pipelines.TescoPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'Tesco.pipelines.TescoPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

@@ -9,6 +9,7 @@ verify_ssl = true
 scrapy = "==1.8.0"
 sqlalchemy = "*"
 pymysql = "*"
+mysql-python = "*"
 
 [requires]
 python_version = "3.8"
